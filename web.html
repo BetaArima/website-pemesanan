@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxury Hotel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <div class="font-bold text-xl">LUXURY</div>
+      <nav class="space-x-6 text-gray-600">
+        <a href="#home" class="hover:text-black">Home</a>
+        <a href="#facilities" class="hover:text-black">Facilities</a>
+        <a href="#rooms" class="hover:text-black">Rooms</a>
+        <a href="#contact" class="hover:text-black">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative">
+    <img src="01.jpg" alt="Hotel View" class="w-full h-[600px] object-cover" />
+  </section>
+
+  
+  <!-- Facilities -->
+  <section id="facilities" class="py-12 bg-gray-50">
+    <div class="container mx-auto px-4 grid md:grid-cols-3 gap-6">
+      <div>
+        <img src="03.jpg" class="rounded" />
+        <h3 class="text-center mt-2 font-semibold">SWIMMING POOL</h3>
+      </div>
+      <div>
+        <img src="04.jpg" class="rounded" />
+        <h3 class="text-center mt-2 font-semibold">THE SPA</h3>
+      </div>
+      <div>
+        <img src="05.jpg" class="rounded" />
+        <h3 class="text-center mt-2 font-semibold">RESTAURANT</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rooms -->
+  <section id="rooms" class="py-12 bg-white">
+    <div class="container mx-auto px-4 grid md:grid-cols-3 gap-6">
+      <div>
+        <img src="09.jpg" class="rounded" />
+        <h3 class="text-center mt-2 font-semibold">THE SINGLE BED</h3>
+      </div>
+      <div>
+        <img src="08.jpg" class="rounded" />
+        <h3 class="text-center mt-2 font-semibold">THE DOUBLE BED</h3>
+      </div>
+      <div>
+        <img src="07.jpg" class="rounded" />
+        <h3 class="text-center mt-2 font-semibold">THE DELUXE BED</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="py-12 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6 text-center">CONTACT-US</h2>
+      <form class="max-w-xl mx-auto space-y-4">
+        <input type="text" placeholder="Name" class="w-full p-3 border border-gray-300 rounded" />
+        <input type="email" placeholder="Email" class="w-full p-3 border border-gray-300 rounded" />
+        <textarea placeholder="what you wanna say ?" class="w-full p-3 border border-gray-300 rounded h-32"></textarea>
+        <button type="submit" class="bg-black text-white px-6 py-2 rounded">Submit</button>
+      </form>
+    </div>
+  </section>
+
+<!-- Testimonials -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <p class="text-sm">"Cool crypto currency, fast withdrawals and deposits, way better than any wallet!"</p>
+          <div class="mt-4 flex items-center">
+            <img src="A3.jpeg" class="w-10 h-10 rounded-full mr-4" />
+            <div>
+              <p class="text-sm font-semibold">Alexa Johns</p>
+              <p class="text-xs text-gray-500">Entrepreneur</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <p class="text-sm">Hotel Yang Sangat Bagus, Pelayanannya yang terbaik</p>
+          <div class="mt-4 flex items-center">
+            <img src="A2.jpeg" class="w-10 h-10 rounded-full mr-4" />
+            <div>
+              <p class="text-sm font-semibold">Alexa Johns</p>
+              <p class="text-xs text-gray-500">Entrepreneur</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <p class="text-sm">Pelayanan yang sangat ramah, makanan enak dan fasilitas nya lengkap</p>
+          <div class="mt-4 flex items-center">
+            <img src="A1.jpeg" class="w-10 h-10 rounded-full mr-4" />
+            <div>
+              <p class="text-sm font-semibold">Alexa Johns</p>
+              <p class="text-xs text-gray-500">Entrepreneur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 py-6 text-sm">
+    <div class="container mx-auto px-4 grid md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-bold">LUXURY</h4>
+        <p>497 Evergreen Rd. Roseville, CA 95673<br/>+44 345 678 903<br/>luxury_hotels@gmail.com</p>
+      </div>
+      <div>
+        <p><a href="#" class="block hover:underline">About Us</a></p>
+        <p><a href="#" class="block hover:underline">Contact</a></p>
+        <p><a href="#" class="block hover:underline">Terms & Conditions</a></p>
+      </div>
+      <div>
+        <p>Subscribe to our newsletter</p>
+        <div class="flex mt-2">
+          <input type="email" placeholder="Email Address" class="p-2 rounded-l border border-gray-300 flex-grow" />
+          <button class="bg-yellow-500 text-white px-4 rounded-r">OK</button>
+        </div>
+        <div class="flex space-x-4 mt-4">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
